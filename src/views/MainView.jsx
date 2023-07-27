@@ -1,13 +1,21 @@
 import React from 'react'
-import { Carrusel } from '../components/ComponentsMainView/Carrusel'
+import { Carrusel } from '../components/ComponentsMainView/Carrusel';
+
+import '../assets/css/MainView.css';
+import InfoContent  from '../components/InfoContent.jsx';
 
 export const MainView = () => {
   return (
-    <div>
-        <div class="container-lg">
+    <div className='contenedor container'>
+        <div className="container-lg">
         <Carrusel /> 
         </div>
         <br />
+        <div>
+          <InfoContent/>
+        </div>
+
+
         
     </div>
   )

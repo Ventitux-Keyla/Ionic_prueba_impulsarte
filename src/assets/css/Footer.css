@@ -1,0 +1,23 @@
+.contenedor-footer{
+    background-color: #DC0D83;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+.texto-color{
+    color: white;
+}
+
+.contenedor-general-footer{
+    padding-top: 40px;
+}
+
+@media (max-width: 448px) {
+    .contenedor-footer{
+        background-color: #DC0D83;
+        color: white;
+    }
+    
+}

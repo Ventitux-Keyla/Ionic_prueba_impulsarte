@@ -12,6 +12,10 @@ code {
     monospace;
 } */
 
+.container::-webkit-scrollbar {
+  display: none;
+  }
+
 #error-page {
   display: flex;
   flex-direction: column;

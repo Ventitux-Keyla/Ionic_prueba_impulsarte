@@ -1,0 +1,102 @@
+.contenedor-cards{
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.novedades{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+    /* background-color: rgb(250, 250, 250); */
+    border: .5px solid #ebe9e975;
+    border-radius: 15px;
+
+    /* From https://css.glass */
+    background: rgba(226, 226, 226, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(189, 189, 189, 0.34);
+
+    box-shadow: 10px 16px 15px -3px rgba(194, 192, 192, 0.75);
+    -webkit-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);
+    -moz-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);
+}
+
+.texto-ubication{
+    /* background-color:bisque ; */
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.novedades h2{
+    color: #DC0D83;
+    font-family: 'Arial';
+    font-weight: 600;
+}
+
+.finanzas{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+    /* background-color: rgb(250, 250, 250); */
+    border: .5px solid #ebe9e975;
+    border-radius: 15px;
+
+    /* From https://css.glass */
+    background: rgba(226, 226, 226, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(189, 189, 189, 0.34);
+
+    box-shadow: 10px 16px 15px -3px rgba(194, 192, 192, 0.75);
+    -webkit-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);
+    -moz-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);    
+}
+.finanzas h2{
+    color: #DC0D83;
+    font-family: 'Arial';
+    font-weight: 600;
+}
+
+.tips{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+    /* background-color: rgb(250, 250, 250); */
+    border: .5px solid #ebe9e975;
+    border-radius: 15px;
+
+    /* From https://css.glass */
+    background: rgba(226, 226, 226, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(189, 189, 189, 0.34);
+
+    box-shadow: 10px 16px 15px -3px rgba(194, 192, 192, 0.75);
+    -webkit-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);
+    -moz-box-shadow: 10px 16px 15px -3px rgba(207,207,207,0.75);
+}
+.tips h2{
+    color: #DC0D83;
+    font-family: 'Arial';
+    font-weight: 600;
+}
+
+.card-content{
+    background-color: #DC0D83;
+}
+.foto1{
+    background-image: url('../img/1.jpg');
+    width: 20px;
+    height: 40px;
+}
+.contenedor{
+    display: flex;
+}
