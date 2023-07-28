@@ -8,16 +8,30 @@ import { CardActionArea } from '@mui/material';
 //Imagenes
 import ImgNov from '../assets/img/1.jpg';
 
+
+//el ejemplo del video este seria el people card
 export default function InfoContent() {
+    /* const informacion = [
+        {
+            name: "Nombre 1",
+            description: "esta es la descripcion 1",
+        },
+        {
+            name: "Nombre 2",
+            description: "esta es la descripcion 2",
+        }
+    ]; */
+    
+
   return (
         <Card className='contenedor' sx={{ maxWidth: 345 }}>
             <CardActionArea>
                 <CardMedia
                 component="img"
                 height="140"
-                //   image="/assets/img/Beneficios 1.jpg"
+                //image={{}}
                 alt="green iguana"
-                className='foto1'
+                className='foto1' 
                 />
                 <div className='foto1'></div>
                 <CardContent>
