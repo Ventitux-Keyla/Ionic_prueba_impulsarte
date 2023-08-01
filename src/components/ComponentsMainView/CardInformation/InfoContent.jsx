@@ -1,4 +1,59 @@
-import * as React from 'react';
+// import { Card } from '@mui/material';
+// import React, {Component} from 'react';
+
+import { Row } from "reactstrap";
+import React, { useState } from 'react'
+
+import Information from "./Information";
+
+
+const InfoContent = () => {
+    const [information, setInformation] = useState([
+        {
+            id:1,
+            name:"Esmeralda",
+            role: "soporte",
+            img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        },
+        {
+            id:2,
+            name:"Jose Pablo",
+            role: "Desarrollador",
+            img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        
+        },
+        {
+            id:3,
+            name:"Pedro Pablo",
+            role: "Desarrollador",
+            img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        
+        },
+        {
+            id:4,
+            name:"Francisco",
+            role: "Encargado DDT",
+            img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        
+        },
+        
+    ]);
+      return(
+        <div className="row">
+            {/* <Row>
+                <Information/>
+            </Row> */}
+            {information.map(information =>{
+            return (
+            <Information name={information.name} img={information.img} role={information.role}/>
+            );
+        })}
+        </div>
+         );
+    }
+  
+export default InfoContent;
+/* import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -20,7 +75,7 @@ export default function InfoContent() {
             name: "Nombre 2",
             description: "esta es la descripcion 2",
         }
-    ]; */
+    ]; 
     
 
   return (
@@ -49,7 +104,7 @@ export default function InfoContent() {
             </Card>
 
   );
-}
+} */
 
 
 

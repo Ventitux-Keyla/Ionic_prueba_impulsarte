@@ -2,7 +2,7 @@ import image1 from "../../assets/img/1.jpg"
 import image2 from "../../assets/img/2.jpg"
 
 //Estilos
-import '../ComponentsMainView/Carrusel.css';
+// import '../ComponentsMainView/Carrusel.css';
 
 
 

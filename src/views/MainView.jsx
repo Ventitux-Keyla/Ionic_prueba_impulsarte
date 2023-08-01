@@ -2,7 +2,7 @@ import React from 'react'
 import { Carrusel } from '../components/ComponentsMainView/Carrusel';
 
 import '../assets/css/MainView.css';
-import InfoContent  from '../components/InfoContent.jsx';
+import InfoContent from '../components/ComponentsMainView/CardInformation/InfoContent';
 
 export const MainView = () => {
   return (
