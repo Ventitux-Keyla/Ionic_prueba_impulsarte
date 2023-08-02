@@ -11,28 +11,21 @@ const InfoContent = () => {
     const [information, setInformation] = useState([
         {
             id:1,
-            name:"Esmeralda",
-            role: "soporte",
+            title:"Novedades",
+            description: "soporte",
             img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
         },
         {
             id:2,
-            name:"Jose Pablo",
-            role: "Desarrollador",
+            title:"Finanzas",
+            description: "Desarrollador",
             img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
         
         },
         {
             id:3,
-            name:"Pedro Pablo",
-            role: "Desarrollador",
-            img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-        
-        },
-        {
-            id:4,
-            name:"Francisco",
-            role: "Encargado DDT",
+            title:"Tips",
+            description: "Desarrollador",
             img: "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
         
         },
@@ -45,7 +38,7 @@ const InfoContent = () => {
             </Row> */}
             {information.map(information =>{
             return (
-            <Information name={information.name} img={information.img} role={information.role}/>
+            <Information title={information.title} img={information.img} description={information.description}/>
             );
         })}
         </div>

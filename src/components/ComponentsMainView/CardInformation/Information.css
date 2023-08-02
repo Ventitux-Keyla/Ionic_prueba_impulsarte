@@ -1,0 +1,12 @@
+.card-one{
+    /* background-color: #DC0D83; */
+    background-color: rgba(230, 230, 230, 0.329);
+}
+.contenedor-card{
+    width:auto;
+    padding: 0;
+    box-shadow: 9px 6px 9px 0px rgba(143,143,143,0.75);
+    -webkit-box-shadow: 9px 6px 9px 0px rgba(143,143,143,0.75);
+    -moz-box-shadow: 9px 6px 9px 0px rgba(143,143,143,0.75);
+}
+

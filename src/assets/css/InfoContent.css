@@ -100,3 +100,7 @@
 .contenedor{
     display: flex;
 }
+
+.contenedor_informacion{
+    display: flex;
+}
